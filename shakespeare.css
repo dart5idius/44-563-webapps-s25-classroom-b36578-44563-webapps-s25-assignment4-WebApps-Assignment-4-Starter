@@ -1,0 +1,40 @@
+/* General styles for speech, stage-direction, and name */
+.speech {
+    font-family: 'Times New Roman', serif;
+    font-size: 16px;
+    color: black;
+}
+
+.stage-direction {
+    font-family: 'Courier New', monospace;
+    font-size: 14px;
+    color: black;
+    background-color: #f0f0f0; /* Light background color */
+    padding: 5px;
+    margin: 10px 0;
+}
+
+.stage-direction:hover {
+    background-color: #d0d0d0; /* Change background color on hover */
+    color: #333; /* Change text color on hover */
+}
+
+.name {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+/* Character-specific styles */
+.ADRIANA {
+    color: #8a2be2; /* Purple */
+}
+
+.LUCIANA {
+    color: #228b22; /* Forest Green */
+}
+
+.DROMIO-OF-EPHESUS {
+    color: #b22222; /* Firebrick Red */
+}
